@@ -1,0 +1,56 @@
+.non-bold {
+    font-weight: 300;
+}
+
+.day {
+    width: 14.12%;
+    text-align: right;
+    padding-right: 12px;
+}
+
+.weekend {
+    color: gray;
+}
+
+.day-block {
+    width: 14.12%;
+    height: 110px;
+    text-align: right;
+    padding-right: 12px;
+    border: 1px solid rgb(207, 206, 206);
+    padding-top: 12px;
+}
+
+.weekend-block {
+    color: gray;
+    background-color: rgb(221, 220, 220);
+}
+
+.month-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.month-select {
+    text-align: right;
+}
+
+.day-names {
+    display: flex;
+    padding: 5px;
+}
+
+.week1, .week2, .week3, .week4, .week5 {
+    display: flex;
+}
+
+.week1 {
+    border-top: 1px solid rgb(207, 206, 206);
+}
+
+.week5 {
+    border-bottom: 1px solid rgb(207, 206, 206);
+}
